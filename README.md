@@ -1,5 +1,11 @@
 # React JS Landing Page Web App Template
 
+## Overview
+The goal is to improve SEO with react but does the __meteor js__ result in any drawbacks?
+- See 
+    1. Limitations of Meteor.js
+    2. See your playlist "React" with the topic to improve SEO.
+
 
 ### <a href="https://react-landing-page-template.herokuapp.com">LIVE DEMO</a> 
 
@@ -23,3 +29,18 @@ You can also change styles by modifying the ```public/css``` files.
 <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
 
 ##### Issaaf kattan
+
+
+## Customizing this website
+### Customize route
+- We have one route that is defined in ./imports/routes/router.jsx that imported App.js
+
+### Customize front page
+- We have all the components in ./imports/frontend/ 
+
+### Data rendered 
+- All the data is rendered from ./public/data.json that is loaded by getResumeData() in imports/frontend/APP.jsx
+
+### Progress
+1. change the ./public/css/style.css. Create a root containing all (primary, secondary...) colors within a variable to easy customization.
+2. Define the design structure

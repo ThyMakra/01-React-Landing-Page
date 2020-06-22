@@ -5,9 +5,9 @@ import App from '../frontend/App';
 import Backend from '../backend/App';  // Could be used to implement a backend down the line
 const AppRouter = () => (
     <Router>
-  <div>
+      <div>
         <Route path="/"  exact component={App} />
-        </div>
+      </div>
     </Router>
   );
   
